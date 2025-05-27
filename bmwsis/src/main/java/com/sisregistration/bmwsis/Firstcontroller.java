@@ -12,7 +12,7 @@ public class Firstcontroller {
 
     @GetMapping("/student")
     public String student() {
-        return "student"; // This will render student.html
+        return "redirect:/student/login"; // Redirect to new student login
     }
 
     @GetMapping("/faculty")
